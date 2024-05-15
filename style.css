@@ -1,0 +1,81 @@
+body {
+    padding-top: 56px; /* Space for the fixed navbar */
+  }
+  
+  .hero-section {
+    background: url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero-section .hero-content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .features-section .card {
+    margin-bottom: 30px;
+  }
+  
+  .gallery-section .img-fluid {
+    margin-bottom: 15px;
+  }
+  
+  .timeline-section .timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+  }
+  
+  .timeline-section .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ddd;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .timeline-section .timeline > li {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-section .timeline > li .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #007bff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+  }
+  
+  .timeline-section .timeline > li .timeline-panel {
+    position: relative;
+    width: 46%;
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    text-align: left;
+  }
+  
+  .timeline-section .timeline > li .timeline-panel::before {
+    content: '';
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent #f5f5f5;
+  }
+  
